@@ -87,7 +87,7 @@ with tab1:
     for vx in (g.ax_joint, g.ax_marg_y):
         vx.axvline(ingreso2, color='crimson', ls='--', lw=3)
     for hx in (g.ax_joint, g.ax_marg_y):
-        hx.axhline(numero_personas_hogar2, color='crimson', ls='--', lw=3)
+        hx.axhline(numero_personas_hogar2-1, color='crimson', ls='--', lw=3)
         
     
     st.pyplot(g) 
